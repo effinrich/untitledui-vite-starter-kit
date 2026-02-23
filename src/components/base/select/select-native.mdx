@@ -1,0 +1,90 @@
+import { Canvas, Meta, ArgTypes } from '@storybook/blocks'
+import * as SelectNativeStories from './select-native.stories'
+
+<Meta of={SelectNativeStories} />
+
+# SelectNative
+
+The `SelectNative` component is a reusable UI element.
+
+## Usage
+
+### Basic Example
+
+<Canvas of={SelectNativeStories.Default} />
+
+```tsx
+<SelectNative>
+  Content
+</SelectNative>
+```
+
+## Props
+
+<ArgTypes of={SelectNativeStories} />
+
+This component accepts standard HTML attributes.
+
+## Accessibility
+
+The `SelectNative` component follows WAI-ARIA guidelines:
+
+- Supports keyboard navigation
+- Includes proper ARIA attributes
+- Compatible with screen readers
+
+### Keyboard Interactions
+
+| Key | Description |
+|-----|-------------|
+| `Tab` | Moves focus to the component |
+| `Enter` | Activates the component |
+| `Space` | Activates the component |
+
+## Composition
+
+### With Other Components
+
+```tsx
+<div className="flex flex-col gap-4">
+  <SelectNative>
+    First item
+  </SelectNative>
+  <SelectNative>
+    Second item
+  </SelectNative>
+</div>
+```
+
+## Responsive Design
+
+Use CSS media queries for responsive behavior:
+
+```tsx
+<SelectNative
+  
+  style={{ width: '100%' }}
+  className="responsive-component"
+>
+  Responsive SelectNative
+</SelectNative>
+
+<style>
+  @media (min-width: 768px) {
+    .responsive-component {
+      width: auto;
+      
+    }
+  }
+</style>
+```
+
+## Best Practices
+
+1. **Accessibility**: Always provide meaningful content or aria-label
+4. **Composition**: Combine with other components using Stack or Flex for layouts
+5. **Performance**: Avoid creating new callback functions on each render
+
+## Related Components
+
+- See your design system documentation for related components

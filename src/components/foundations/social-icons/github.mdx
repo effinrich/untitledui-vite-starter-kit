@@ -1,0 +1,94 @@
+import { Canvas, Meta, ArgTypes } from '@storybook/blocks'
+import * as GithubStories from './github.stories'
+
+<Meta of={GithubStories} />
+
+# Github
+
+The `Github` component provides configurable sizes.
+
+## Usage
+
+### Basic Example
+
+<Canvas of={GithubStories.Default} />
+
+```tsx
+<Github>
+  Content
+</Github>
+```
+
+## Props
+
+<ArgTypes of={GithubStories} />
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `size` | `number` | `-` | - |
+
+
+## Accessibility
+
+The `Github` component follows WAI-ARIA guidelines:
+
+- Supports keyboard navigation
+- Includes proper ARIA attributes
+- Compatible with screen readers
+
+### Keyboard Interactions
+
+| Key | Description |
+|-----|-------------|
+| `Tab` | Moves focus to the component |
+| `Enter` | Activates the component |
+| `Space` | Activates the component |
+
+## Composition
+
+### With Other Components
+
+```tsx
+<div className="flex flex-col gap-4">
+  <Github>
+    First item
+  </Github>
+  <Github>
+    Second item
+  </Github>
+</div>
+```
+
+## Responsive Design
+
+Use CSS media queries for responsive behavior:
+
+```tsx
+<Github
+  
+  style={{ width: '100%' }}
+  className="responsive-component"
+>
+  Responsive Github
+</Github>
+
+<style>
+  @media (min-width: 768px) {
+    .responsive-component {
+      width: auto;
+      
+    }
+  }
+</style>
+```
+
+## Best Practices
+
+1. **Accessibility**: Always provide meaningful content or aria-label
+3. **Sizing**: Use consistent sizes within the same section of your UI
+4. **Composition**: Combine with other components using Stack or Flex for layouts
+5. **Performance**: Avoid creating new callback functions on each render
+
+## Related Components
+
+- See your design system documentation for related components

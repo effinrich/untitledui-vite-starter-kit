@@ -1,0 +1,112 @@
+import { Canvas, Meta, ArgTypes } from '@storybook/blocks'
+import * as VerifiedTickStories from './verified-tick.stories'
+
+<Meta of={VerifiedTickStories} />
+
+# VerifiedTick
+
+The `VerifiedTick` component provides configurable sizes.
+
+## Usage
+
+### Basic Example
+
+<Canvas of={VerifiedTickStories.Default} />
+
+```tsx
+<VerifiedTick size="sm">
+  Content
+</VerifiedTick>
+```
+
+### Sizes
+
+Available in 8 sizes:
+
+<Canvas of={VerifiedTickStories.Sizes} />
+
+```tsx
+<VerifiedTick size="xs">xs</VerifiedTick>
+<VerifiedTick size="sm">sm</VerifiedTick>
+<VerifiedTick size="md">md</VerifiedTick>
+<VerifiedTick size="lg">lg</VerifiedTick>
+<VerifiedTick size="xl">xl</VerifiedTick>
+<VerifiedTick size="2xl">2xl</VerifiedTick>
+<VerifiedTick size="3xl">3xl</VerifiedTick>
+<VerifiedTick size="4xl">4xl</VerifiedTick>
+```
+
+## Props
+
+<ArgTypes of={VerifiedTickStories} />
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `size` | `"xs" \| "sm" \| "md" \| "lg" \| "xl" \| "2xl" \| "3xl" \| "4xl"` | `-` | - |
+| `className` | `string` | `-` | - |
+
+
+## Accessibility
+
+The `VerifiedTick` component follows WAI-ARIA guidelines:
+
+- Supports keyboard navigation
+- Includes proper ARIA attributes
+- Compatible with screen readers
+
+### Keyboard Interactions
+
+| Key | Description |
+|-----|-------------|
+| `Tab` | Moves focus to the component |
+| `Enter` | Activates the component |
+| `Space` | Activates the component |
+
+## Composition
+
+### With Other Components
+
+```tsx
+<div className="flex flex-col gap-4">
+  <VerifiedTick>
+    First item
+  </VerifiedTick>
+  <VerifiedTick>
+    Second item
+  </VerifiedTick>
+</div>
+```
+
+## Responsive Design
+
+Use CSS media queries for responsive behavior:
+
+```tsx
+<VerifiedTick
+  size="xs"
+  style={{ width: '100%' }}
+  className="responsive-component"
+>
+  Responsive VerifiedTick
+</VerifiedTick>
+
+<style>
+  @media (min-width: 768px) {
+    .responsive-component {
+      width: auto;
+      /* Use sm size */
+    }
+  }
+</style>
+```
+
+## Best Practices
+
+1. **Accessibility**: Always provide meaningful content or aria-label
+3. **Sizing**: Use consistent sizes within the same section of your UI
+4. **Composition**: Combine with other components using Stack or Flex for layouts
+5. **Performance**: Avoid creating new callback functions on each render
+
+## Related Components
+
+- See your design system documentation for related components

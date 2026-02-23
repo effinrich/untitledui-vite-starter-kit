@@ -1,0 +1,118 @@
+import { Canvas, Meta, ArgTypes } from '@storybook/blocks'
+import * as MultiSelectStories from './multi-select.stories'
+
+<Meta of={MultiSelectStories} />
+
+# MultiSelect
+
+The `MultiSelect` component provides configurable sizes.
+
+## Usage
+
+### Basic Example
+
+<Canvas of={MultiSelectStories.Default} />
+
+```tsx
+<MultiSelect size="md">
+  Content
+</MultiSelect>
+```
+
+### Sizes
+
+Available in 2 sizes:
+
+<Canvas of={MultiSelectStories.Sizes} />
+
+```tsx
+<MultiSelect size="sm">sm</MultiSelect>
+<MultiSelect size="md">md</MultiSelect>
+```
+
+## Props
+
+<ArgTypes of={MultiSelectStories} />
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `hint` | `string` | `-` | - |
+| `label` | `string` | `-` | - |
+| `tooltip` | `string` | `-` | - |
+| `size` | `"sm" \| "md"` | `-` | - |
+| `placeholder` | `string` | `-` | - |
+| `shortcut` | `boolean` | `-` | - |
+| `items` | `SelectItemType[]` | `-` | - |
+| `popoverClassName` | `string` | `-` | - |
+| `shortcutClassName` | `string` | `-` | - |
+| `selectedItems` | `ListData<SelectItemType>` | `-` | - |
+| `placeholderIcon` | `IconComponentType \| null` | `-` | - |
+| `children` | `AriaListBoxProps<SelectItemType>["children"]` | `-` | - |
+| `onItemCleared` | `(key: Key) => void` | `-` | - |
+| `onItemInserted` | `(key: Key) => void` | `-` | - |
+
+
+## Accessibility
+
+The `MultiSelect` component follows WAI-ARIA guidelines:
+
+- Supports keyboard navigation
+- Includes proper ARIA attributes
+- Compatible with screen readers
+
+### Keyboard Interactions
+
+| Key | Description |
+|-----|-------------|
+| `Tab` | Moves focus to the component |
+| `Enter` | Activates the component |
+| `Space` | Activates the component |
+
+## Composition
+
+### With Other Components
+
+```tsx
+<div className="flex flex-col gap-4">
+  <MultiSelect>
+    First item
+  </MultiSelect>
+  <MultiSelect>
+    Second item
+  </MultiSelect>
+</div>
+```
+
+## Responsive Design
+
+Use CSS media queries for responsive behavior:
+
+```tsx
+<MultiSelect
+  size="sm"
+  style={{ width: '100%' }}
+  className="responsive-component"
+>
+  Responsive MultiSelect
+</MultiSelect>
+
+<style>
+  @media (min-width: 768px) {
+    .responsive-component {
+      width: auto;
+      /* Use md size */
+    }
+  }
+</style>
+```
+
+## Best Practices
+
+1. **Accessibility**: Always provide meaningful content or aria-label
+3. **Sizing**: Use consistent sizes within the same section of your UI
+4. **Composition**: Combine with other components using Stack or Flex for layouts
+5. **Performance**: Avoid creating new callback functions on each render
+
+## Related Components
+
+- See your design system documentation for related components

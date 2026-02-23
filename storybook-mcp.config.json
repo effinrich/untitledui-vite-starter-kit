@@ -1,0 +1,25 @@
+{
+  "framework": "shadcn",
+  "libraries": [
+    {
+      "name": "components",
+      "path": ".",
+      "storyTitlePrefix": "Components"
+    }
+  ],
+  "storyFilePattern": "**/*.stories.{ts,tsx}",
+  "componentPatterns": [
+    "**/src/**/*.tsx",
+    "**/lib/**/*.tsx",
+    "!**/*.stories.tsx",
+    "!**/*.test.tsx",
+    "!**/*.spec.tsx"
+  ],
+  "excludePatterns": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.storybook/**"
+  ],
+  "storybookVersion": 10
+}

@@ -1,0 +1,549 @@
+{
+  "version": "1",
+  "components": {
+    "src\\components\\foundations\\payment-icons\\amex-icon.tsx": {
+      "hash": "eb56be436f257e0b7765f2a191363c2e",
+      "lastSync": "2026-02-23T09:04:07.425Z"
+    },
+    "src\\components\\foundations\\social-icons\\angel-list.tsx": {
+      "hash": "a525b68ff467ef08f2550d878fd33789",
+      "lastSync": "2026-02-23T09:04:07.431Z"
+    },
+    "src\\components\\foundations\\social-icons\\apple.tsx": {
+      "hash": "56d5864550d8361d9eba458b4873a7ec",
+      "lastSync": "2026-02-23T09:04:07.435Z"
+    },
+    "src\\components\\foundations\\payment-icons\\apple-pay-icon.tsx": {
+      "hash": "cd9bef6c2e72d7da6578d25e550e7555",
+      "lastSync": "2026-02-23T09:04:07.437Z"
+    },
+    "src\\components\\base\\buttons\\app-store-buttons.tsx": {
+      "hash": "0b879805e9efa894c0bac98c029e5e04",
+      "lastSync": "2026-02-23T09:04:07.440Z"
+    },
+    "src\\components\\base\\buttons\\app-store-buttons-outline.tsx": {
+      "hash": "61e5ef770dae44bee13d3f6c8827d9ff",
+      "lastSync": "2026-02-23T09:04:07.444Z"
+    },
+    "src\\components\\base\\avatar\\avatar.tsx": {
+      "hash": "e1e879e1f829acbc772ae67f7bbd43df",
+      "lastSync": "2026-02-23T09:04:07.447Z"
+    },
+    "src\\components\\base\\avatar\\base-components\\avatar-add-button.tsx": {
+      "hash": "1f5ef8091294a5420a9c7dc9bc3f8c7c",
+      "lastSync": "2026-02-23T09:04:07.450Z"
+    },
+    "src\\components\\base\\avatar\\base-components\\avatar-company-icon.tsx": {
+      "hash": "cf1bfe0c8b1e44bdb549fb5c683461ba",
+      "lastSync": "2026-02-23T09:04:07.453Z"
+    },
+    "src\\components\\base\\avatar\\avatar-label-group.tsx": {
+      "hash": "1cb82e5107bae7dceba370e7e3245b66",
+      "lastSync": "2026-02-23T09:04:07.457Z"
+    },
+    "src\\components\\base\\avatar\\base-components\\avatar-online-indicator.tsx": {
+      "hash": "ff14a02572ba0f9feab0f52a5fc2a277",
+      "lastSync": "2026-02-23T09:04:07.460Z"
+    },
+    "src\\components\\base\\avatar\\avatar-profile-photo.tsx": {
+      "hash": "98153fec1679516272d5a8c6b04be8ec",
+      "lastSync": "2026-02-23T09:04:07.464Z"
+    },
+    "src\\components\\shared-assets\\background-patterns\\index.tsx": {
+      "hash": "7251949a76e3536391daeeeb901d29d9",
+      "lastSync": "2026-02-23T09:04:07.466Z"
+    },
+    "src\\components\\base\\badges\\badge-groups.tsx": {
+      "hash": "bd840ee11a75dd8338e8d9fceb6a7e5d",
+      "lastSync": "2026-02-23T09:04:07.469Z"
+    },
+    "src\\components\\base\\badges\\badges.tsx": {
+      "hash": "7697ae26f3f05181f9fd8579f4730a49",
+      "lastSync": "2026-02-23T09:04:07.472Z"
+    },
+    "src\\components\\base\\avatar\\base-components\\index.tsx": {
+      "hash": "0f4d45b20239d8e3afb1fc4609c63bbe",
+      "lastSync": "2026-02-23T09:04:07.474Z"
+    },
+    "src\\components\\shared-assets\\illustrations\\box.tsx": {
+      "hash": "886df79567ae4ce47ae250a4541049d8",
+      "lastSync": "2026-02-23T09:04:07.477Z"
+    },
+    "src\\stories\\Button.tsx": {
+      "hash": "7c8567d72e71333cb5434278de592e7a",
+      "lastSync": "2026-02-23T09:04:07.479Z"
+    },
+    "src\\components\\base\\buttons\\button.tsx": {
+      "hash": "9178205e600eb5be644ef86285d552f6",
+      "lastSync": "2026-02-23T09:04:07.487Z"
+    },
+    "src\\components\\base\\button-group\\button-group.tsx": {
+      "hash": "d0f4f996e3bf0113a35b8d1d5fa942d2",
+      "lastSync": "2026-02-23T09:04:07.490Z"
+    },
+    "src\\components\\base\\buttons\\button-utility.tsx": {
+      "hash": "5327e6a2966867461f8af2dc1d9f73f4",
+      "lastSync": "2026-02-23T09:04:07.498Z"
+    },
+    "src\\components\\application\\date-picker\\calendar.tsx": {
+      "hash": "757beb39f7d75b9efb2dcd2baf163016",
+      "lastSync": "2026-02-23T09:04:07.501Z"
+    },
+    "src\\components\\application\\date-picker\\cell.tsx": {
+      "hash": "8034c330627d3d21cf6b674b9887fd9e",
+      "lastSync": "2026-02-23T09:04:07.504Z"
+    },
+    "src\\components\\base\\checkbox\\checkbox.tsx": {
+      "hash": "3f48a812a30574900ffe776d03929f74",
+      "lastSync": "2026-02-23T09:04:07.507Z"
+    },
+    "src\\components\\shared-assets\\background-patterns\\circle.tsx": {
+      "hash": "c28dee4796a48787692feb385700f602",
+      "lastSync": "2026-02-23T09:04:07.511Z"
+    },
+    "src\\components\\base\\buttons\\close-button.tsx": {
+      "hash": "82ad79b8a60549e7c9911c8eef9e10ae",
+      "lastSync": "2026-02-23T09:04:07.514Z"
+    },
+    "src\\components\\shared-assets\\illustrations\\cloud.tsx": {
+      "hash": "38291c7725eb1dddfd321f2033e48aba",
+      "lastSync": "2026-02-23T09:04:07.517Z"
+    },
+    "src\\components\\foundations\\social-icons\\clubhouse.tsx": {
+      "hash": "79b11ce13c5ae612e3c2087dcd481c29",
+      "lastSync": "2026-02-23T09:04:07.520Z"
+    },
+    "src\\components\\base\\select\\combobox.tsx": {
+      "hash": "bfe1b42b6c2dd78e6e8528c9dfa8dbbe",
+      "lastSync": "2026-02-23T09:04:07.524Z"
+    },
+    "src\\components\\shared-assets\\illustrations\\credit-card.tsx": {
+      "hash": "fd7a9110218a3a4c9399e700c23714e6",
+      "lastSync": "2026-02-23T09:04:07.526Z"
+    },
+    "src\\components\\application\\date-picker\\date-input.tsx": {
+      "hash": "89cd602f5fd9f9ff94e1bf38c0f67299",
+      "lastSync": "2026-02-23T09:04:07.529Z"
+    },
+    "src\\components\\application\\date-picker\\date-picker.tsx": {
+      "hash": "6781e1f1b9d43a5948a396ee7a5309b0",
+      "lastSync": "2026-02-23T09:04:07.532Z"
+    },
+    "src\\components\\application\\date-picker\\date-range-picker.tsx": {
+      "hash": "30289a798251ea8789f5240d994afe36",
+      "lastSync": "2026-02-23T09:04:07.536Z"
+    },
+    "src\\components\\foundations\\social-icons\\discord.tsx": {
+      "hash": "a5c74a11fa3fc63b2a8b6772f370a2bd",
+      "lastSync": "2026-02-23T09:04:07.539Z"
+    },
+    "src\\components\\foundations\\payment-icons\\discover-icon.tsx": {
+      "hash": "e9c4313333d8e0393b115be0762a9506",
+      "lastSync": "2026-02-23T09:04:07.542Z"
+    },
+    "src\\components\\shared-assets\\illustrations\\documents.tsx": {
+      "hash": "94ca9c813750d6e186a1bd12ef1118d4",
+      "lastSync": "2026-02-23T09:04:07.547Z"
+    },
+    "src\\components\\foundations\\dot-icon.tsx": {
+      "hash": "4e78225411a44d4dfcfaf60b3fdbbb38",
+      "lastSync": "2026-02-23T09:04:07.549Z"
+    },
+    "src\\components\\foundations\\social-icons\\dribbble.tsx": {
+      "hash": "765e90228d959e83c18f36f722d842e3",
+      "lastSync": "2026-02-23T09:04:07.552Z"
+    },
+    "src\\components\\base\\dropdown\\dropdown.tsx": {
+      "hash": "c12355615eb3ac0e657a70b1056f8b8e",
+      "lastSync": "2026-02-23T09:04:07.556Z"
+    },
+    "src\\components\\marketing\\header-navigation\\dropdown-header-navigation.tsx": {
+      "hash": "1717ca0e667d22ad1e9ece76b926b358",
+      "lastSync": "2026-02-23T09:04:07.558Z"
+    },
+    "src\\components\\application\\empty-state\\empty-state.tsx": {
+      "hash": "24a51d81217a13bf733c1fdbd0eca186",
+      "lastSync": "2026-02-23T09:04:07.561Z"
+    },
+    "src\\components\\foundations\\social-icons\\facebook.tsx": {
+      "hash": "5f546df2b763aa7d0e9820926c9b94d4",
+      "lastSync": "2026-02-23T09:04:07.564Z"
+    },
+    "src\\components\\foundations\\featured-icon\\featured-icon.tsx": {
+      "hash": "e7db7a00fd017596c65cc2c735259339",
+      "lastSync": "2026-02-23T09:04:07.567Z"
+    },
+    "src\\components\\foundations\\social-icons\\figma.tsx": {
+      "hash": "e59099aab0bbcd388fa30598a110fbbd",
+      "lastSync": "2026-02-23T09:04:07.569Z"
+    },
+    "src\\components\\application\\file-upload\\file-upload-base.tsx": {
+      "hash": "12d4bf52f7cafa3299e58467b7cdc5ca",
+      "lastSync": "2026-02-23T09:04:07.573Z"
+    },
+    "src\\components\\base\\file-upload-trigger\\file-upload-trigger.tsx": {
+      "hash": "3e63e405db834c62100c106f03b7244e",
+      "lastSync": "2026-02-23T09:04:07.576Z"
+    },
+    "src\\components\\base\\form\\form.tsx": {
+      "hash": "a984356db04abec0d2b7aa3bade47e5a",
+      "lastSync": "2026-02-23T09:04:07.579Z"
+    },
+    "src\\components\\foundations\\social-icons\\github.tsx": {
+      "hash": "0fba48395765c24944a319ed4b6d9fdd",
+      "lastSync": "2026-02-23T09:04:07.582Z"
+    },
+    "src\\components\\foundations\\social-icons\\google.tsx": {
+      "hash": "a7fb165b2b89a1afbfeae25b8a557a2f",
+      "lastSync": "2026-02-23T09:04:07.586Z"
+    },
+    "src\\components\\shared-assets\\background-patterns\\grid.tsx": {
+      "hash": "ef44c55ef6de2fc09c1bcc762a58aae3",
+      "lastSync": "2026-02-23T09:04:07.589Z"
+    },
+    "src\\components\\shared-assets\\background-patterns\\grid-check.tsx": {
+      "hash": "c9d4f66f88a473a74326d2aeb95a050c",
+      "lastSync": "2026-02-23T09:04:07.593Z"
+    },
+    "src\\stories\\Header.tsx": {
+      "hash": "fb86520a27208c72a549be6ebe320bd1",
+      "lastSync": "2026-02-23T09:04:07.597Z"
+    },
+    "src\\components\\marketing\\header-navigation\\header.tsx": {
+      "hash": "21db964dd2cd6b9c06f4563b359f3b5f",
+      "lastSync": "2026-02-23T09:04:07.603Z"
+    },
+    "src\\components\\application\\app-navigation\\header-navigation.tsx": {
+      "hash": "8c48884a26dbdebf27e51f8fd13057f3",
+      "lastSync": "2026-02-23T09:04:07.607Z"
+    },
+    "src\\components\\base\\input\\hint-text.tsx": {
+      "hash": "84d7bf489e474ac2f098aa8b9863f84b",
+      "lastSync": "2026-02-23T09:04:07.611Z"
+    },
+    "src\\pages\\home-screen.tsx": {
+      "hash": "7a931e1ded6835efb76fa761f4cb81b4",
+      "lastSync": "2026-02-23T09:04:07.619Z"
+    },
+    "src\\components\\shared-assets\\illustrations\\index.tsx": {
+      "hash": "947c5b84011ef0f3101cebf620cd0d59",
+      "lastSync": "2026-02-23T09:04:07.622Z"
+    },
+    "src\\components\\base\\input\\input.tsx": {
+      "hash": "c94b33669ef2eeefaa5403eb0d5b2a42",
+      "lastSync": "2026-02-23T09:04:07.625Z"
+    },
+    "src\\components\\base\\input\\input-group.tsx": {
+      "hash": "260cb8aecfd7f9eb41ea11a3286b8931",
+      "lastSync": "2026-02-23T09:04:07.628Z"
+    },
+    "src\\components\\base\\input\\input-payment.tsx": {
+      "hash": "90551ecca1b1974647069d98d392226a",
+      "lastSync": "2026-02-23T09:04:07.632Z"
+    },
+    "src\\components\\foundations\\social-icons\\instagram.tsx": {
+      "hash": "4654ea37950ed0dd4b0b5ed5c461fa5a",
+      "lastSync": "2026-02-23T09:04:07.635Z"
+    },
+    "src\\components\\base\\input\\label.tsx": {
+      "hash": "79bf872cdc72ed074d03c6552f6d6f4a",
+      "lastSync": "2026-02-23T09:04:07.638Z"
+    },
+    "src\\components\\foundations\\social-icons\\layers.tsx": {
+      "hash": "384c58620891f9ebd4879432803273b9",
+      "lastSync": "2026-02-23T09:04:07.641Z"
+    },
+    "src\\components\\foundations\\social-icons\\linkedin.tsx": {
+      "hash": "f9fdf5e3163c9c34f17d1085df372b80",
+      "lastSync": "2026-02-23T09:04:07.645Z"
+    },
+    "src\\components\\application\\loading-indicator\\loading-indicator.tsx": {
+      "hash": "edd0708e64082dff3881a860050029df",
+      "lastSync": "2026-02-23T09:04:07.648Z"
+    },
+    "src\\main.tsx": {
+      "hash": "c4df3b123205c2f25da26369976decdd",
+      "lastSync": "2026-02-23T09:04:07.652Z"
+    },
+    "src\\components\\foundations\\payment-icons\\mastercard-icon.tsx": {
+      "hash": "7f766e6bd5cba3bb683c918efb437d69",
+      "lastSync": "2026-02-23T09:04:07.654Z"
+    },
+    "src\\components\\application\\app-navigation\\base-components\\mobile-header.tsx": {
+      "hash": "4912edfc19b55e3f76e2d57b9c9131ca",
+      "lastSync": "2026-02-23T09:04:07.658Z"
+    },
+    "src\\components\\application\\modals\\modal.tsx": {
+      "hash": "4dd74b433fa06e66a6f01f8b62084c0d",
+      "lastSync": "2026-02-23T09:04:07.660Z"
+    },
+    "src\\components\\base\\select\\multi-select.tsx": {
+      "hash": "77a4c1ccebce594c974cfbaec5a23c87",
+      "lastSync": "2026-02-23T09:04:07.663Z"
+    },
+    "src\\components\\application\\app-navigation\\base-components\\nav-account-card.tsx": {
+      "hash": "15d8ea399c872f6e6afaf36f8892872e",
+      "lastSync": "2026-02-23T09:04:07.666Z"
+    },
+    "src\\components\\application\\app-navigation\\base-components\\nav-item.tsx": {
+      "hash": "57e08d8537471218baa4f3ff2ec6a6ec",
+      "lastSync": "2026-02-23T09:04:07.669Z"
+    },
+    "src\\components\\application\\app-navigation\\base-components\\nav-item-button.tsx": {
+      "hash": "127ae302c286512125dce987d6fec674",
+      "lastSync": "2026-02-23T09:04:07.672Z"
+    },
+    "src\\components\\application\\app-navigation\\base-components\\nav-list.tsx": {
+      "hash": "af51dc35b32538abfda52db3f02dd383",
+      "lastSync": "2026-02-23T09:04:07.676Z"
+    },
+    "src\\components\\marketing\\header-navigation\\base-components\\nav-menu-item.tsx": {
+      "hash": "3f615fc2f5e721ff0386a6ce62fd6b37",
+      "lastSync": "2026-02-23T09:04:07.678Z"
+    },
+    "src\\pages\\not-found.tsx": {
+      "hash": "356490396c8d200d922de4d1c9eb566b",
+      "lastSync": "2026-02-23T09:04:07.681Z"
+    },
+    "src\\stories\\Page.tsx": {
+      "hash": "b96b6e44dcd83c0554c891ea6541a49e",
+      "lastSync": "2026-02-23T09:04:07.683Z"
+    },
+    "src\\components\\application\\pagination\\pagination.tsx": {
+      "hash": "b0e89dcc5185119a73a97d849fac7b0e",
+      "lastSync": "2026-02-23T09:04:07.689Z"
+    },
+    "src\\components\\application\\pagination\\pagination-base.tsx": {
+      "hash": "6623ca075b9f79e85305c68a7cdc6e49",
+      "lastSync": "2026-02-23T09:04:07.692Z"
+    },
+    "src\\components\\application\\pagination\\pagination-dot.tsx": {
+      "hash": "9a873705bc1c5620b1fae0051b6fb4a1",
+      "lastSync": "2026-02-23T09:04:07.695Z"
+    },
+    "src\\components\\application\\pagination\\pagination-line.tsx": {
+      "hash": "08a0502499da0e78d8861d297f1a2fcb",
+      "lastSync": "2026-02-23T09:04:07.705Z"
+    },
+    "src\\components\\foundations\\payment-icons\\index.tsx": {
+      "hash": "35e227419d48ceaa43be4669316ec982",
+      "lastSync": "2026-02-23T09:04:07.709Z"
+    },
+    "src\\components\\foundations\\payment-icons\\paypal-icon.tsx": {
+      "hash": "3f1ae0528ac76b15c8bb842557fe0e96",
+      "lastSync": "2026-02-23T09:04:07.713Z"
+    },
+    "src\\components\\base\\pin-input\\pin-input.tsx": {
+      "hash": "c3ef44391152bfcdbc94b69bf0e7eeac",
+      "lastSync": "2026-02-23T09:04:07.717Z"
+    },
+    "src\\components\\foundations\\social-icons\\pinterest.tsx": {
+      "hash": "1020fe13ad436a88725db3f17c0fb12a",
+      "lastSync": "2026-02-23T09:04:07.721Z"
+    },
+    "src\\components\\base\\select\\popover.tsx": {
+      "hash": "2ff0816147dac24f7aa4164cb4e22b87",
+      "lastSync": "2026-02-23T09:04:07.724Z"
+    },
+    "src\\components\\base\\progress-indicators\\progress-circles.tsx": {
+      "hash": "eee5305a37d86b854f6b9b6a04a88e85",
+      "lastSync": "2026-02-23T09:04:07.726Z"
+    },
+    "src\\components\\base\\progress-indicators\\progress-indicators.tsx": {
+      "hash": "5b1eea701589229b7d0d7ddbd5b4ac30",
+      "lastSync": "2026-02-23T09:04:07.729Z"
+    },
+    "src\\components\\shared-assets\\qr-code.tsx": {
+      "hash": "71f925cd7106d0bb3422d9dd4c1b0268",
+      "lastSync": "2026-02-23T09:04:07.734Z"
+    },
+    "src\\components\\base\\radio-buttons\\radio-buttons.tsx": {
+      "hash": "8c5da397d28ac600fbc3f4219b91f480",
+      "lastSync": "2026-02-23T09:04:07.738Z"
+    },
+    "src\\components\\application\\date-picker\\range-calendar.tsx": {
+      "hash": "a3add7c6fbd7956002b931705bd3508c",
+      "lastSync": "2026-02-23T09:04:07.743Z"
+    },
+    "src\\components\\application\\date-picker\\range-preset.tsx": {
+      "hash": "5df314ac2d833a4828126e205e137e90",
+      "lastSync": "2026-02-23T09:04:07.745Z"
+    },
+    "src\\components\\foundations\\rating-badge.tsx": {
+      "hash": "430064185eb64b03a65ee961351510e1",
+      "lastSync": "2026-02-23T09:04:07.748Z"
+    },
+    "src\\components\\foundations\\rating-stars.tsx": {
+      "hash": "c622b0cb19da100bff98199c84c6cd6f",
+      "lastSync": "2026-02-23T09:04:07.752Z"
+    },
+    "src\\components\\foundations\\social-icons\\reddit.tsx": {
+      "hash": "58e49ba6bcbaef76e214ab74cb470d89",
+      "lastSync": "2026-02-23T09:04:07.756Z"
+    },
+    "src\\providers\\router-provider.tsx": {
+      "hash": "da84dc31a17fdeaa96ca35e5fc77b7e2",
+      "lastSync": "2026-02-23T09:04:07.758Z"
+    },
+    "src\\components\\shared-assets\\section-divider.tsx": {
+      "hash": "ce595251a5374074837a2b2639018005",
+      "lastSync": "2026-02-23T09:04:07.761Z"
+    },
+    "src\\components\\base\\select\\select.tsx": {
+      "hash": "d8e14008033640100f9552227b189290",
+      "lastSync": "2026-02-23T09:04:07.764Z"
+    },
+    "src\\components\\base\\select\\select-item.tsx": {
+      "hash": "6e36c81640656458660b875faa12a63b",
+      "lastSync": "2026-02-23T09:04:07.767Z"
+    },
+    "src\\components\\base\\select\\select-native.tsx": {
+      "hash": "0057ccd80fa17828f6d2f58ba0eb8eba",
+      "lastSync": "2026-02-23T09:04:07.771Z"
+    },
+    "src\\components\\application\\app-navigation\\sidebar-navigation\\sidebar-dual-tier.tsx": {
+      "hash": "ce9db696af0a20429c3ca14e4d97743f",
+      "lastSync": "2026-02-23T09:04:07.774Z"
+    },
+    "src\\components\\application\\app-navigation\\sidebar-navigation-base.tsx": {
+      "hash": "9aed232f55b5415f7a76fc57c82ef000",
+      "lastSync": "2026-02-23T09:04:07.777Z"
+    },
+    "src\\components\\application\\app-navigation\\sidebar-navigation\\sidebar-section-dividers.tsx": {
+      "hash": "308516301f98f2b42c071007ec9dafab",
+      "lastSync": "2026-02-23T09:04:07.779Z"
+    },
+    "src\\components\\application\\app-navigation\\sidebar-navigation\\sidebar-sections-subheadings.tsx": {
+      "hash": "b899552e3641da203a485d3c916f9088",
+      "lastSync": "2026-02-23T09:04:07.784Z"
+    },
+    "src\\components\\application\\app-navigation\\sidebar-navigation\\sidebar-simple.tsx": {
+      "hash": "aeab4c1f060f3c427b83df51ddfd697c",
+      "lastSync": "2026-02-23T09:04:07.789Z"
+    },
+    "src\\components\\application\\app-navigation\\sidebar-navigation\\sidebar-slim.tsx": {
+      "hash": "0ce3992113e331e273fb94b0567813de",
+      "lastSync": "2026-02-23T09:04:07.791Z"
+    },
+    "src\\components\\foundations\\social-icons\\signal.tsx": {
+      "hash": "46d9e5791ca26ea9afede9b0d41b597b",
+      "lastSync": "2026-02-23T09:04:07.797Z"
+    },
+    "src\\components\\base\\progress-indicators\\simple-circle.tsx": {
+      "hash": "1e8426c504dbac9bddc6c1622b7a7287",
+      "lastSync": "2026-02-23T09:04:07.802Z"
+    },
+    "src\\components\\application\\slideout-menus\\slideout-menu.tsx": {
+      "hash": "4f67636916651b8100f9b22c9f0ba72e",
+      "lastSync": "2026-02-23T09:04:07.806Z"
+    },
+    "src\\components\\base\\slider\\slider.tsx": {
+      "hash": "da0335df56a33893ad57ca5e0ae99114",
+      "lastSync": "2026-02-23T09:04:07.810Z"
+    },
+    "src\\components\\foundations\\social-icons\\snapchat.tsx": {
+      "hash": "4764b89d66bc0734b7c1254ac397371b",
+      "lastSync": "2026-02-23T09:04:07.813Z"
+    },
+    "src\\components\\base\\buttons\\social-button.tsx": {
+      "hash": "d69e33ecbfbdd9b679f9f8aa5603d545",
+      "lastSync": "2026-02-23T09:04:07.818Z"
+    },
+    "src\\components\\foundations\\social-icons\\index.tsx": {
+      "hash": "5916d4a3006cd42fa9a1b4d98fc8f264",
+      "lastSync": "2026-02-23T09:04:07.822Z"
+    },
+    "src\\components\\base\\buttons\\social-logos.tsx": {
+      "hash": "1e87bbd9a78f522d526954f2364cf619",
+      "lastSync": "2026-02-23T09:04:07.825Z"
+    },
+    "src\\components\\shared-assets\\background-patterns\\square.tsx": {
+      "hash": "0fc854ea2525ea1ed3354abb5effd2ac",
+      "lastSync": "2026-02-23T09:04:07.828Z"
+    },
+    "src\\components\\foundations\\payment-icons\\stripe-icon.tsx": {
+      "hash": "579f94f4a43de3bcc6570f0f8a3c739d",
+      "lastSync": "2026-02-23T09:04:07.832Z"
+    },
+    "src\\components\\application\\table\\table.tsx": {
+      "hash": "7c084100357f78ca4a85e73cfbc3f2f5",
+      "lastSync": "2026-02-23T09:04:07.835Z"
+    },
+    "src\\components\\application\\tabs\\tabs.tsx": {
+      "hash": "42fd2574ac09d09f61aaddc7c00c3b67",
+      "lastSync": "2026-02-23T09:04:07.838Z"
+    },
+    "src\\components\\base\\tags\\base-components\\tag-checkbox.tsx": {
+      "hash": "11b22064ba92eb5ce14d61314a544801",
+      "lastSync": "2026-02-23T09:04:07.841Z"
+    },
+    "src\\components\\base\\tags\\base-components\\tag-close-x.tsx": {
+      "hash": "b42b7511d4e2dfbd154c560df5e443e2",
+      "lastSync": "2026-02-23T09:04:07.845Z"
+    },
+    "src\\components\\base\\tags\\tags.tsx": {
+      "hash": "7cd4741fd8d338b934099e34c1cd1f76",
+      "lastSync": "2026-02-23T09:04:07.848Z"
+    },
+    "src\\components\\foundations\\social-icons\\telegram.tsx": {
+      "hash": "75cc120638e7361069fa9eabe8945917",
+      "lastSync": "2026-02-23T09:04:07.851Z"
+    },
+    "src\\components\\base\\textarea\\textarea.tsx": {
+      "hash": "5ae81d16cbdbcedc69d9f32afcbde7de",
+      "lastSync": "2026-02-23T09:04:07.855Z"
+    },
+    "src\\providers\\theme-provider.tsx": {
+      "hash": "bb37ba65bffb9f830c0678eea2022110",
+      "lastSync": "2026-02-23T09:04:07.859Z"
+    },
+    "src\\components\\foundations\\social-icons\\tiktok.tsx": {
+      "hash": "5b46966c6b1707d21bcecb917a468ef1",
+      "lastSync": "2026-02-23T09:04:07.863Z"
+    },
+    "src\\components\\base\\toggle\\toggle.tsx": {
+      "hash": "10b872b9fa7c918c68d088e5ebd96285",
+      "lastSync": "2026-02-23T09:04:07.866Z"
+    },
+    "src\\components\\base\\tooltip\\tooltip.tsx": {
+      "hash": "56c4c72118172e077260bbb292fba71e",
+      "lastSync": "2026-02-23T09:04:07.869Z"
+    },
+    "src\\components\\foundations\\social-icons\\tumblr.tsx": {
+      "hash": "742f170d806db16a1abb958d33dde049",
+      "lastSync": "2026-02-23T09:04:07.871Z"
+    },
+    "src\\components\\foundations\\social-icons\\twitter.tsx": {
+      "hash": "e9ba03db1beaeeb615cf125c678382f3",
+      "lastSync": "2026-02-23T09:04:07.873Z"
+    },
+    "src\\components\\foundations\\payment-icons\\union-pay-icon.tsx": {
+      "hash": "21e8a423ad74235602f8854aaad1397d",
+      "lastSync": "2026-02-23T09:04:07.876Z"
+    },
+    "src\\components\\foundations\\logo\\untitledui-logo.tsx": {
+      "hash": "470ed7265f54d71a7603390d1c43bdf4",
+      "lastSync": "2026-02-23T09:04:07.878Z"
+    },
+    "src\\components\\foundations\\logo\\untitledui-logo-minimal.tsx": {
+      "hash": "677bcdcdb1eaf8e7a13afe24275fef3c",
+      "lastSync": "2026-02-23T09:04:07.881Z"
+    },
+    "src\\components\\base\\avatar\\base-components\\verified-tick.tsx": {
+      "hash": "5f54e61cda6f678097ad8ad0552414b5",
+      "lastSync": "2026-02-23T09:04:07.883Z"
+    },
+    "src\\components\\foundations\\payment-icons\\visa-icon.tsx": {
+      "hash": "75af37dd455e766b954b7aea5bad404c",
+      "lastSync": "2026-02-23T09:04:07.886Z"
+    },
+    "src\\components\\foundations\\social-icons\\x.tsx": {
+      "hash": "4c7cc1db5582c951ae7f105a56eac80e",
+      "lastSync": "2026-02-23T09:04:07.890Z"
+    },
+    "src\\components\\foundations\\social-icons\\youtube.tsx": {
+      "hash": "0ff269af10ca774ce13d1c8784da86b8",
+      "lastSync": "2026-02-23T09:04:07.892Z"
+    }
+  }
+}

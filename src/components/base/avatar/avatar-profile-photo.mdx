@@ -1,0 +1,106 @@
+import { Canvas, Meta, ArgTypes } from '@storybook/blocks'
+import * as AvatarProfilePhotoStories from './avatar-profile-photo.stories'
+
+<Meta of={AvatarProfilePhotoStories} />
+
+# AvatarProfilePhoto
+
+The `AvatarProfilePhoto` component provides configurable sizes.
+
+## Usage
+
+### Basic Example
+
+<Canvas of={AvatarProfilePhotoStories.Default} />
+
+```tsx
+<AvatarProfilePhoto size="md">
+  Content
+</AvatarProfilePhoto>
+```
+
+### Sizes
+
+Available in 3 sizes:
+
+<Canvas of={AvatarProfilePhotoStories.Sizes} />
+
+```tsx
+<AvatarProfilePhoto size="sm">sm</AvatarProfilePhoto>
+<AvatarProfilePhoto size="md">md</AvatarProfilePhoto>
+<AvatarProfilePhoto size="lg">lg</AvatarProfilePhoto>
+```
+
+## Props
+
+<ArgTypes of={AvatarProfilePhotoStories} />
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `size` | `"sm" \| "md" \| "lg"` | `-` | - |
+
+
+## Accessibility
+
+The `AvatarProfilePhoto` component follows WAI-ARIA guidelines:
+
+- Supports keyboard navigation
+- Includes proper ARIA attributes
+- Compatible with screen readers
+
+### Keyboard Interactions
+
+| Key | Description |
+|-----|-------------|
+| `Tab` | Moves focus to the component |
+| `Enter` | Activates the component |
+| `Space` | Activates the component |
+
+## Composition
+
+### With Other Components
+
+```tsx
+<div className="flex flex-col gap-4">
+  <AvatarProfilePhoto>
+    First item
+  </AvatarProfilePhoto>
+  <AvatarProfilePhoto>
+    Second item
+  </AvatarProfilePhoto>
+</div>
+```
+
+## Responsive Design
+
+Use CSS media queries for responsive behavior:
+
+```tsx
+<AvatarProfilePhoto
+  size="sm"
+  style={{ width: '100%' }}
+  className="responsive-component"
+>
+  Responsive AvatarProfilePhoto
+</AvatarProfilePhoto>
+
+<style>
+  @media (min-width: 768px) {
+    .responsive-component {
+      width: auto;
+      /* Use md size */
+    }
+  }
+</style>
+```
+
+## Best Practices
+
+1. **Accessibility**: Always provide meaningful content or aria-label
+3. **Sizing**: Use consistent sizes within the same section of your UI
+4. **Composition**: Combine with other components using Stack or Flex for layouts
+5. **Performance**: Avoid creating new callback functions on each render
+
+## Related Components
+
+- See your design system documentation for related components

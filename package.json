@@ -6,17 +6,15 @@
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
-        "preview": "vite preview",
-        "storybook": "storybook dev -p 6006",
-        "build-storybook": "storybook build",
-        "test-storybook": "test-storybook"
+        "preview": "vite preview"
     },
     "dependencies": {
         "@tailwindcss/typography": "^0.5.19",
         "@tailwindcss/vite": "^4.1.18",
+        "@testing-library/react": "^16.3.2",
         "@untitledui/file-icons": "^0.0.8",
         "@untitledui/icons": "^0.0.19",
-        "forgekit-storybook-mcp": "^0.11.0",
+        "forgekit-storybook-mcp": "^1.1.0",
         "input-otp": "^1.4.2",
         "motion": "^12.29.0",
         "qr-code-styling": "^1.9.2",
@@ -32,28 +30,21 @@
         "tailwindcss-react-aria-components": "^2.0.1"
     },
     "devDependencies": {
-        "@storybook/react": "^10.2.7",
         "@tailwindcss/postcss": "^4.1.18",
         "@trivago/prettier-plugin-sort-imports": "^5.2.2",
         "@types/node": "^24.10.9",
         "@types/react": "^19.2.9",
         "@types/react-dom": "^19.2.3",
         "@vitejs/plugin-react-swc": "^4.2.2",
+        "@vitest/browser-playwright": "^4.0.18",
+        "@vitest/coverage-v8": "^4.0.18",
         "globals": "^16.5.0",
+        "playwright": "^1.58.2",
         "prettier": "^3.8.1",
         "prettier-plugin-tailwindcss": "^0.6.14",
-        "storybook": "^10.2.7",
         "typescript": "^5.9.3",
         "typescript-eslint": "^8.53.1",
         "vite": "^7.3.1",
-        "@storybook/react-vite": "^10.2.10",
-        "@chromatic-com/storybook": "^5.0.1",
-        "@storybook/addon-vitest": "^10.2.10",
-        "@storybook/addon-a11y": "^10.2.10",
-        "@storybook/addon-docs": "^10.2.10",
-        "vitest": "^4.0.18",
-        "playwright": "^1.58.2",
-        "@vitest/browser-playwright": "^4.0.18",
-        "@vitest/coverage-v8": "^4.0.18"
+        "vitest": "^4.0.18"
     }
 }
